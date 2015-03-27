@@ -1,0 +1,22 @@
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\bin\Debug\ActionPlanner.exe
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\bin\Debug\ActionPlanner.pdb
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\bin\Debug\Robotics.dll
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\bin\Debug\Robotics.xml
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ResolveAssemblyReference.cache
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.frmActionPlanner.resources
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.Properties.Resources.resources
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.csproj.GenerateResource.Cache
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.exe
+D:\Mis Documentos\Robocup@Home 2012\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.pdb
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\bin\Debug\ACT-PLN.exe
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\bin\Debug\ACT-PLN.pdb
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\bin\Debug\Robotics.dll
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\bin\Debug\Robotics.pdb
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\bin\Debug\Robotics.xml
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ResolveAssemblyReference.cache
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.frmActionPlanner.resources
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.Properties.Resources.resources
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ResGen.read.1.tlog
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ResGen.write.1.tlog
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.exe
+Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.pdb
