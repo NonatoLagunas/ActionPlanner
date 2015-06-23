@@ -24,6 +24,7 @@ namespace ActionPlanner.Tests.StateMachines
             InitialState,
 
             //TODO: Add the states you need here
+            DoPresentation,
 
             /// <summary>
             ///  Final state of this SM
@@ -97,6 +98,7 @@ namespace ActionPlanner.Tests.StateMachines
             SM.AddState(new FunctionState((int)States.InitialState, InitialState));
 
             //TODO: Link States-enum whith States-Methods here
+            SM.AddState(new FunctionState((int)States.DoPresentation, DoPresentation));
 
             SM.AddState(new FunctionState((int)States.FinalState, FinalState, true));
 
@@ -141,6 +143,11 @@ namespace ActionPlanner.Tests.StateMachines
         }
 
         // TODO: Add all the State-Mehtods you need here
+        private int DoPresentation(int currentState, object o)
+        {
+            brain.DoPresentationSpanish();
+            return (int)currentState;
+        }
 
         /// <summary>
         /// Final state of this SM

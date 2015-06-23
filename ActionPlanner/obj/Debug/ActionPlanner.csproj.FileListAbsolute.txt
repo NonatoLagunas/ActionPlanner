@@ -20,3 +20,13 @@ Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ResGen.r
 Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ResGen.write.1.tlog
 Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.exe
 Z:\RoboCup\SourceCode\FinalStable\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.pdb
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.exe
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ACT-PLN.pdb
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\bin\Debug\ACT-PLN.exe
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\bin\Debug\ACT-PLN.pdb
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\bin\Debug\Robotics.pdb
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\bin\Debug\Robotics.xml
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.csprojResolveAssemblyReference.cache
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.frmActionPlanner.resources
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.Properties.Resources.resources
+C:\Users\nonat_000\Documents\Projects\ActionPlanner\ActionPlanner\obj\Debug\ActionPlanner.csproj.GenerateResource.Cache

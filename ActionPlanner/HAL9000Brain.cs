@@ -1385,52 +1385,58 @@ namespace ActionPlanner
 
 		public bool DoPresentationSpanish()
 		{
-			TextBoxStreamWriter.DefaultLog.WriteLine("HAL9000\\DoPresSubroutine.-> Executing doPresentation");
+            TextBoxStreamWriter.DefaultLog.WriteLine("HAL9000\\DoPresSubroutine.-> Executing doPresentation");
+            this.cmdMan.ARMS_goto("home", 10000);
 			this.cmdMan.HEAD_lookat(0, 0, 1000);
-			this.cmdMan.SPG_GEN_say("Hola. Soy Justina y soy un Robot. Fui construida en la Universidad Nacional Autonoma de Mexico.", 15000);
-			this.cmdMan.SPG_GEN_say("Me encantaria mostrarte mi disenio.", 10000);
-			this.cmdMan.ARMS_ra_goto("heilHitler", 12000);			
+            this.cmdMan.SPG_GEN_say("Hola.", 15000);
+            this.cmdMan.ARMS_ra_goto("heilHitler");
+            this.cmdMan.SPG_GEN_say("Soy Justina y soy un Robot. Fui construida en la Universidad Nacional Autonoma de Mexico.", 15000);
+			this.cmdMan.SPG_GEN_say("Me encantaria mostrarles mi dise(n~)o.", 10000);
+			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
 
+            this.cmdMan.ARMS_ra_goto("showHead");
 			this.cmdMan.SPG_GEN_say("Tengo una cabeza mecatronica.");
-			this.cmdMan.ARMS_ra_hand_move("mark", 1000);
-			this.cmdMan.ARMS_ra_goto("showHead", 10000);
+			//this.cmdMan.ARMS_ra_hand_move("mark", 1000);
+			//this.cmdMan.ARMS_ra_goto("showHead", 10000);
 			this.cmdMan.HEAD_lookat(0.7, 0.0, 10000);
 			this.cmdMan.HEAD_lookat(0.0, 0.5, 10000);
 			this.cmdMan.HEAD_lookat(-0.7, 0.0, 10000);
 			this.cmdMan.HEAD_lookat(0.0, -0.5, 10000);
 			this.cmdMan.HEAD_lookat(0, 0, 10000);
 
-			this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
-			this.cmdMan.ARMS_la_closegrip(5000);
+			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
+			//this.cmdMan.ARMS_la_closegrip(5000);
 			//this.cmdMan.ARMS_ra_hand_move("fist", 1000);
 			this.cmdMan.SPG_GEN_say("Tengo una camara estereo que uso como ojos.");
-			this.cmdMan.ARMS_ra_goto("showHead", 10000);
+			//this.cmdMan.ARMS_ra_goto("showHead", 10000);
 			//this.cmdMan.ARMS_ra_hand_move("mark", 1000);
 			/*this.cmdMan.ARMS_ra_opengrip(5000);
 			this.cmdMan.ARMS_ra_closegrip(5000);*/
 			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
 			this.cmdMan.ARMS_goto("showArm", 12000);
-			this.cmdMan.SPG_GEN_say("Tambien tengo dos brazos.", 10000);
-			this.cmdMan.SPG_GEN_say("Ambos son manipuladores antropomorficos de siete grados de libertad.");
+            this.cmdMan.SPG_GEN_say("Tambien tengo dos brazos.", 10000);
+            this.cmdMan.SPG_GEN_say("Ambos son manipuladores antropomorficos de siete grados de libertad.");
+            this.cmdMan.ARMS_ra_opengrip(5000);
+            this.cmdMan.ARMS_la_opengrip(5000);
+            this.cmdMan.ARMS_ra_closegrip(5000);
+            this.cmdMan.ARMS_la_closegrip(5000);
 			//this.cmdMan.ARMS_ra_hand_move("point", 1000);
-			this.cmdMan.ARMS_ra_opengrip(5000);
-			this.cmdMan.ARMS_la_opengrip(5000);
-			this.cmdMan.ARMS_ra_closegrip(5000);
-			this.cmdMan.ARMS_la_closegrip(5000);
 			//this.cmdMan.ARMS_ra_hand_move("fist", 1000);
 			Thread.Sleep(2000);
 			this.cmdMan.ARMS_la_goto("home", 10000);
+            this.cmdMan.ARMS_ra_goto("home", 10000);
 			//this.cmdMan.ARMS_la_opengrip(5000);
-			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);			
-			this.cmdMan.SPG_GEN_say("Tengo un sistema Kinect");
-			Thread.Sleep(1500);
-			this.cmdMan.ARMS_ra_hand_move("mark", 1000);
-			this.cmdMan.ARMS_ra_goto("showKinect", 10000);
-			this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
+			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
+            //this.cmdMan.ARMS_ra_goto("showHead", 10000);
+            this.cmdMan.ARMS_ra_goto("showKinect", 10000);
+			this.cmdMan.SPG_GEN_say("Tengo un sensor Kinect");
+
+            //Thread.Sleep(1000);
+			//this.cmdMan.ARMS_ra_goto("heilHitler", 12000);
 			
 			this.cmdMan.ARMS_ra_goto("showLaser", 10000);
-			this.cmdMan.SPG_GEN_say("Tengo ademas un sensor laser.");
-			Thread.Sleep(1000);
+			this.cmdMan.SPG_GEN_say("Tengo adem(a')s un sensor laser.");
+			//Thread.Sleep(1000);
 			//this.cmdMan.ARMS_ra_hand_move("mark", 1000);
 			this.cmdMan.ARMS_ra_closegrip(5000);
 			this.cmdMan.ARMS_ra_goto("home", 12000);
@@ -1438,12 +1444,12 @@ namespace ActionPlanner
 			cmdMan.MVN_PLN_move(0, Math.PI / 4, 4000);
 			cmdMan.MVN_PLN_move(0, -Math.PI / 4, 4000);
 			this.cmdMan.SPG_GEN_say("Muchas gracias por su atencion.");
-			this.cmdMan.ARMS_ra_goto("navigation", 10000);
-			this.cmdMan.ARMS_ra_hand_move("good", 1000);
-			Thread.Sleep(1000);
+			//this.cmdMan.ARMS_ra_goto("navigation", 10000);
+			//this.cmdMan.ARMS_ra_hand_move("good", 1000);
+			//Thread.Sleep(1000);
 			//this.cmdMan.ARMS_ra_move("hello", 15000);
 			this.cmdMan.ARMS_ra_goto("home", 10000);
-			this.cmdMan.ARMS_ra_closegrip(5000);
+			//this.cmdMan.ARMS_ra_closegrip(5000);
 			return true;
 		}
 
